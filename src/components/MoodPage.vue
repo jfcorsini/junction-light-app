@@ -1,32 +1,13 @@
 <template>
-  <v-ons-page id="home-page">
-    <div class="header">
-      <img src="../assets/logo.png" />
-    </div>
-
-    <v-ons-list-title>Vue.js Ecosystem</v-ons-list-title>
-    <v-ons-row>
-      <v-ons-button style="margin: 6px 0">Normal</v-ons-button>
-    </v-ons-row>
-    <v-ons-row>
-      <v-ons-button modifier="quiet" style="margin: 6px 0">Quiet</v-ons-button>
-    </v-ons-row>
-    <v-ons-row>
-      <v-ons-button modifier="outline" style="margin: 6px 0">Outline</v-ons-button>
-    </v-ons-row>
-    <v-ons-row>
-      <v-ons-button modifier="cta" style="margin: 6px 0">Call to action</v-ons-button>
-    </v-ons-row>
-    <v-ons-row>
-      <v-ons-button modifier="large" style="margin: 6px 0">Large</v-ons-button>
-    </v-ons-row>
+  <v-ons-page id="mood-page">
+    <v-ons-list-title>This is the mood page!</v-ons-list-title>
   </v-ons-page>
 </template>
 
 <script>
 /* eslint-disable */
 export default {
-  name: "home-page",
+  name: "mood-page",
   data() {
     return {
       msg: "Welcome",
